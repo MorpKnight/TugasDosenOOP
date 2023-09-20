@@ -1,14 +1,17 @@
-
+import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        Bus newBus = new Bus(1, "John", Track.BLOK_M, 10);
-        newBus.getTrackInfo();
+        Scanner sc = new Scanner(System.in);
 
-        newBus.gantiDriver("Doe");
-        System.out.println(newBus.driver);
-        newBus.getTrackInfo();
-        newBus.setCapacity(30);
-        System.out.println(newBus.getCapacity());
+        Phone iPhone16 = new Phone("16", "iPhone", 2024, 8, 128, 3000, 999, false);
+        iPhone16.getPhoneAge();
+
+        Tablet SamsungTabS9 = new Tablet("S9", "Samsung", 2023, 12, 256, 5000, 1299, true, true);
+        SamsungTabS9.getTabletAge();
+        SamsungTabS9.openPen();
+        SamsungTabS9.openApp(sc.nextLine());
+
+        sc.close();
     }
 }
