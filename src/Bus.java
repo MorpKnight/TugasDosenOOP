@@ -18,8 +18,14 @@ public class Bus {
     public void getTrackInfo(){
         System.out.println("Bus ini melayani halte ");
         for(Track t: Track.values()){
-            System.out.println(t);
+            if(t == this.track){
+                // change track to next track
+                this.track = Track.values()[(t.ordinal() + 1) % Track.values().length];
+                break;
+            }
         }
+
+        System.out.println(this.track);
     }
 
     public String gantiDriver(String newDriver){
@@ -29,5 +35,9 @@ public class Bus {
 
     public void setCapacity(int newCapacity){
         this.capacity = newCapacity;
+    }
+
+    public int getCapacity(){
+        return this.capacity;
     }
 }

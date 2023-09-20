@@ -7,5 +7,8 @@ public class App {
 
         newBus.gantiDriver("Doe");
         System.out.println(newBus.driver);
+        newBus.getTrackInfo();
+        newBus.setCapacity(30);
+        System.out.println(newBus.getCapacity());
     }
 }
