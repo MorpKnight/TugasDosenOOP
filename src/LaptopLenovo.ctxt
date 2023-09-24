@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=LaptopLenovo
+comment1.params=modelName
+comment1.target=LaptopLenovo(java.lang.String)
+comment2.params=
+comment2.target=void\ openCamera()
+numComments=3

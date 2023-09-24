@@ -1,0 +1,3 @@
+public enum Purpose {
+    GAMING, BUSINESS, SOCIAL_MEDIA, PHOTOGRAPHY, OTHERS
+}
