@@ -1,4 +1,4 @@
-package Skenario6;
+package src.Skenario6;
 
 public class Satu {
     private void tes(){

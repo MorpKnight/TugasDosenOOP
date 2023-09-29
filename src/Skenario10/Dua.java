@@ -1,4 +1,4 @@
-package Skenario10;
+package src.Skenario10;
 
 public class Dua extends Satu {
     Dua(){

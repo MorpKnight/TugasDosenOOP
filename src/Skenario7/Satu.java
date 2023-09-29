@@ -1,4 +1,4 @@
-package Skenario7;
+package src.Skenario7;
 
 public class Satu {
     Satu(){

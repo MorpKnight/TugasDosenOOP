@@ -1,4 +1,4 @@
-package Skenario1;
+package src.Skenario1;
 
 public class Satu {
     Satu(){
